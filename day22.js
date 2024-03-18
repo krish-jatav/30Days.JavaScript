@@ -32,3 +32,12 @@ console.log(toddlers)
   name: "fin"
 }]
 */
+
+
+// map() method
+
+let arr = [2, 5, 8, 8, 3, 9, 5];
+let even = arr.map(function(elm) {
+    return elm % 2 == 0;
+})
+console.log(even)
