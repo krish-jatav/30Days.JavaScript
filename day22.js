@@ -12,14 +12,11 @@ let people = [
     { name: "ella", age: 25 },
     { name: "fin", age: 1 },
     { name: "george", age: 43 },
-]
+];
 
-let toddlers = people.filter(person => person.age <= 3)
+let toddlers = people.filter((person) => person.age <= 3);
 
-console.log(toddlers)
-
-
-
+console.log(toddlers);
 /*
 [{
   age: 2,
@@ -34,10 +31,40 @@ console.log(toddlers)
 */
 
 
-// map() method
+// .............................................................
+
+let bookSeller = [{
+        bookName: "Atomic Habits",
+        Sell: "Bestseller",
+    },
+    {
+        bookName: "THINK AND GROW RICH (PB)",
+        Sell: "Bestseller",
+    },
+    {
+        bookName: "The Power of Your Subconscious Mind",
+        Sell: "Not Bestseller",
+    },
+    {
+        bookName: "How To Use The Power of Prayer",
+        Sell: "Not Bestseller",
+    },
+];
+let result = bookSeller.filter(function(elm) {
+    return elm.Sell == "Bestseller"
+})
+console.log(result);
+
+// Ouput: [{ bookName: 'Atomic Habits', Sell: 'Bestseller' },
+// { bookName: 'THINK AND GROW RICH (PB)', Sell: 'Bestseller' }
+
+
+
+
+// map() method....>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 let arr = [2, 5, 8, 8, 3, 9, 5];
 let even = arr.map(function(elm) {
     return elm % 2 == 0;
-})
-console.log(even)
+});
+console.log(even);
