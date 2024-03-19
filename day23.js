@@ -7,3 +7,9 @@ function joinArr(add, value) {
 }
 const result = arr.reduce(joinArr);
 console.log("This is result For Reduce() Method : ", result)
+
+// Using Arrow Function..>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+let arrResult = arr.reduce((add, value) => add + value)
+console.log("Using by Arrow Function", arrResult)
