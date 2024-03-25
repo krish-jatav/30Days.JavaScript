@@ -33,7 +33,8 @@ const myCoding = [{
     },
 ]
 
-myCoding.forEach((item) => {
+myCoding.forEach((item, index, arr) => {
 
-    console.log(item.languageFileName);
+    console.log(item.languageFileName == "py",
+        index, );
 })
