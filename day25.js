@@ -1,22 +1,23 @@
-const coding = ["js", "ruby", "java", "python", "cpp"]
+const coding = ["apple", "banana", "orange", "mango", "grapes"]
 
-// coding.forEach(function(val) {
-//     console.log(val);
+// coding.forEach(function(elm) {
+//     console.log(elm);
 // })
 
-coding.forEach((item) => {
-    console.log(item);
-})
-
-// function printMe(item){
+// coding.forEach((item) => {
 //     console.log(item);
-// }
+// })
 
-// coding.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
-// } )
+function printMe(item) {
+    console.log(item);
+}
+
+coding.forEach(printMe)
+
+coding.forEach((item, index, arr) => {
+    console.log(item, index, arr);
+})
 
 // const myCoding = [{
 //         languageName: "javascript",
