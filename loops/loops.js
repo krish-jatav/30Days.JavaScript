@@ -72,3 +72,37 @@
 
 // } while (i <= 10);
 // console.log(text)
+
+// forEach ek array method hai jo har array element ke liye ek function ko execute karta hai.
+//  Yeh method loop ke through array ke har element pe iterate karta hai aur har ek element ko ek function ke through pass karta hai.
+//  Is method ka syntax is tarah hai:
+
+// array.forEach(function(currentValue, index, array) {
+//     // code to execute on each element
+// });
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// numbers.forEach(function(number, index) {
+//     console.log(" Element  at index " + index + " is " + number)
+// })
+
+// for-in loop JavaScript me object properties par iteration karne ke liye istemal hota hai.
+// Is loop se aap object ke har ek property ko access kar sakte hain.
+// Syntax is tarah ka hota hai:
+
+// for (variable in object) {
+//     // code to be executed
+// }
+
+// Yahan variable ek naya variable hai jo object ke har property ko represent karta hai,
+// aur object woh object hai jisme aap iteration karna chahte hain.
+
+let person = {
+    name: 'John',
+    age: 20,
+    profession: 'Developer'
+};
+
+for (let key in person) {
+    console.log(key + ": " + person[key.age]);
+}
