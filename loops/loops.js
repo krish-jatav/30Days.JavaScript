@@ -86,7 +86,7 @@
 //     console.log(" Element  at index " + index + " is " + number)
 // })
 
-// for-in loop JavaScript me object properties par iteration karne ke liye istemal hota hai.
+//for-in loop JavaScript me object properties par iteration karne ke liye istemal hota hai.
 // Is loop se aap object ke har ek property ko access kar sakte hain.
 // Syntax is tarah ka hota hai:
 
@@ -94,15 +94,4 @@
 //     // code to be executed
 // }
 
-// Yahan variable ek naya variable hai jo object ke har property ko represent karta hai,
-// aur object woh object hai jisme aap iteration karna chahte hain.
-
-let person = {
-    name: 'John',
-    age: 20,
-    profession: 'Developer'
-};
-
-for (let key in person) {
-    console.log(key + ": " + person[key.age]);
-}
+//
