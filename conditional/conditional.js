@@ -14,11 +14,17 @@
 
 // jab bhi apko program mein decision lena ho, k aage ka execution kaisa ho toh  whaha par if else else-if use hota hai
 
-var age = 20;
+// var age = 20;
 
-if (age >= 18) {
-    console.log("You are an adult.");
-} else {
-    console.log("You are not an adult.");
-}
+// if (age >= 18) {
+//     console.log("You are an adult.");
+// } else {
+//     console.log("You are not an adult.");
+// }
 // OUTPUT: You are an adult.
+
+// "truthy" aur "falsy" concepts
+
+// 1. truthy value
+
+// har value ko true ya false banaya jaa sakta hai, ye depend krta hai, ki wo value ka type kya hai, agar wo value truthy hai to true banegi and falsy hai to false
