@@ -65,3 +65,20 @@
 // OUTPUT: y is falsy
 
 // In examples mein, x ki value 5 hai, jo ek truthy value hai, to "x is truthy" print hoga. y ki value empty string hai, jo ek falsy value hai, to "y is falsy" print hoga.
+
+// if , if else  and else;
+
+// if, else if, aur else statements ek sath use karke multiple conditions ko evaluate karte hain.
+// Yeh sequence mein conditions ko check karte hain aur jab ek condition true hoti hai,
+// to uss associated block ko execute karte hain.Agar koi bhi condition true nahi hoti hai, to
+// else block execute hota hai(agar available hai).
+
+var num = 10;
+
+if (num > 10) {
+    console.log("Num is greater than 10");
+} else if (num < 10) {
+    console.log("Num is less than 10");
+} else {
+    console.log("Num is equal to 10");
+}
