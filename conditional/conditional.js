@@ -73,12 +73,24 @@
 // to uss associated block ko execute karte hain.Agar koi bhi condition true nahi hoti hai, to
 // else block execute hota hai(agar available hai).
 
-var num = 10;
+// var num = 10;
 
-if (num > 10) {
-    console.log("Num is greater than 10");
-} else if (num < 10) {
-    console.log("Num is less than 10");
-} else {
-    console.log("Num is equal to 10");
-}
+// if (num > 10) {
+//     console.log("Num is greater than 10");
+// } else if (num < 10) {
+//     console.log("Num is less than 10");
+// } else {
+//     console.log("Num is equal to 10");
+// }
+// OUTPUT: Num is equal to 10
+
+//Is example mein:
+
+// Pehle if statement num ko 10 se compare karta hai.Agar num greater than 10 hai, to
+// "Num is greater than 10" print hota hai.
+// Agar pehli condition false hai, to dusri
+// else if statement check hoti hai.Yadi num less than 10 hai, to "Num is less than 10"
+// print hota hai.
+// Agar na to pehli condition true hai aur na hi dusri condition, to
+// else block execute hota hai, jo ki "Num is equal to 10"
+// print karta hai.
