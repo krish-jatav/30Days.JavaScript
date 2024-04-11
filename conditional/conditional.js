@@ -21,3 +21,4 @@ if (age >= 18) {
 } else {
     console.log("You are not an adult.");
 }
+// OUTPUT: You are an adult.
