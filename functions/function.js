@@ -32,3 +32,7 @@
 // Parameters are variables listed in the function definition.
 
 // Arguments are the actual values passed to the function when it is called.
+
+// function greet(name) {} //  parameter receive "name: parameter hai"
+
+// greet("krish")   // argument pass
