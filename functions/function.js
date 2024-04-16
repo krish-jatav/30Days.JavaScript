@@ -35,4 +35,39 @@
 
 // function greet(name) {} //  parameter receive "name: parameter hai"
 
-// greet("krish")   // argument pass
+// greet("krish")   //
+
+// ES5(ECMAScript 5) and ES6(ECMAScript 2015)
+
+// ES5(ECMAScript 5) - fucntion statements,function expressions, anonymous fucntion.
+// // function statement
+
+// function abcd(){
+// function statement
+// }
+
+// function expression
+
+// var abcd = function(){}
+
+// anonymous function
+
+// function(){}
+
+// ES6(ECMAScript 2015) - fat arrow function
+
+//fat arrow
+
+// ()=>{}
+
+// var a = ()=>{};
+// var b = ()=>{};
+
+// fat arrow with one param
+
+var c = (a, b) => {
+    return 3 + 4;
+};
+console.log(c()); // This will log 7 to the console
+
+// fat arrow with param implicit return
