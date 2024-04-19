@@ -23,3 +23,9 @@
 //         console.log("marks = ", student.marks);
 //     },
 // };
+
+// Object Methods-----------
+
+// Objects can also have methods.
+// Methods are actions that can be performed on objects.
+// Methods are stored in properties as function definitions.
