@@ -5,10 +5,12 @@
 // object = ek bande ka kai saara data
 // array = kai logo ka data
 
-let object = {
+let user = {
     name: "Xyz",
     age: 20,
     Enroll: 12345,
     city: "Bhopal"
 }
-console.log(object.name)
+Object.freeze(user);
+user.age = 23;
+console.log(user["age"])
