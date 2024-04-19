@@ -29,3 +29,13 @@
 // Objects can also have methods.
 // Methods are actions that can be performed on objects.
 // Methods are stored in properties as function definitions.
+
+const person = {
+    firstName: "krish",
+    id: 1122,
+    school: "Hrs",
+    schoolName: function() {
+        console.log(this.school)
+    }
+};
+console.log(person.schoolName)
