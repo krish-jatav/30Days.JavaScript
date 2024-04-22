@@ -38,4 +38,14 @@ const person = {
         console.log(this.school)
     }
 };
-console.log(person.schoolName)
+console.log(person.schoolName);
+
+// how
+
+// {}
+
+// when & why
+
+// jab bhi apko ek hi element ki bhut saari details store krni ho
+
+// to save a lot of details all together at one place we use object
