@@ -98,12 +98,16 @@
 // Yahan variable ek naya variable hai jo object ke har property ko represent karta hai,
 // aur object woh object hai jisme aap iteration karna chahte hain.
 
-let person = {
-    name: 'John',
-    age: 20,
-    profession: 'Developer'
-};
+// let person = {
+//     name: 'John',
+//     age: 20,
+//     profession: 'Developer'
+// };
 
-for (let key in person) {
-    console.log(key + "" + person[key]);
-}
+// for (let key in person) {
+//     console.log(key + "" + person[key]);
+// }
+
+var x = 2;
+var y = "2";
+console.log(x === y);

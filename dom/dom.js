@@ -13,7 +13,7 @@
 
 // DOM = HTML
 
-// DOM Manipulation => body mein kuchh bhi change karna ya manipulate karna actucally DOM Manipulation kehlata hai
+// DOM Manipulation => body mein kuchh bhi change karna ya   karna actucally DOM Manipulation kehlata hai
 
 // usse ye kardo ye hone par
 
