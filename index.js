@@ -123,3 +123,16 @@
  
 // }
 // sqr(10, 10)
+
+function update(marks){
+    for(let i = 0 ; i < marks.length; i++){
+marks[i] = marks[i] + 1;
+    }
+}
+const marks = [98,92,23]
+update(marks)
+
+for(let i=0; i <marks.length; i++){
+    console.log(marks[i]+" ")
+}
+
